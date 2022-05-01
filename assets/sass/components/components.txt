@@ -1,0 +1,3 @@
+En "components" irán todos los parciales que representan un pequeño componente de nuestra interfaz.
+Elementos que cumplan una función de manera modular como carruseles, dropdown, thumbnails serán
+bienvenidos en este directorio.

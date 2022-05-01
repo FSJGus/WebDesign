@@ -1,0 +1,2 @@
+El directorio "base" será, como dice su nombre, la base de nuestro proyecto. En él podremos guardar
+todos los estilos principales como las tipografías, reset y estilos comúnmente usados en HTML.

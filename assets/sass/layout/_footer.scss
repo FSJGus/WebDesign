@@ -1,0 +1,74 @@
+button {
+  background-color: #ffaf6d;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+  width: 80px;
+  height: 28px;
+}
+
+input {
+  height: 28px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+input:focus {
+  background: #ffaf6d;
+  color: #924302;
+  font-weight: 700;
+}
+
+.section-footer {
+  display: inline-flex;
+  position: relative;
+  height: 120px;
+  background: #000;
+}
+
+.footer-links {
+  display: inline-flex;
+  position: relative;
+  width: 90%;
+}
+.footer-links > form {
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  color: #fff;
+  align-items: center;
+  right: 40px;
+}
+ 
+.footer-links > ul {
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  align-items: center;
+}
+
+.footer-links > ul > li {
+  padding: 15px;
+}
+
+.copyright {
+  display: inline-flex;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  left: 110px;
+  width: 100%;
+}
+.section-footer {
+  ul {
+    width: 300px;
+  }
+}
+
+#derechos:hover::after {
+  content: " Diseño: Gustavo Lima";
+}

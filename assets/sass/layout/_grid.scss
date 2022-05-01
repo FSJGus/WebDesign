@@ -1,0 +1,36 @@
+.navbar {
+  grid-area: navbar;
+  height: 80px;
+}
+.headerA {
+  grid-area: headerA;
+}
+.aside-right {
+  grid-area: main;
+  height: 300px;
+}
+.section-left-1 {
+  grid-area: right;
+}
+.section-left-2 {
+  grid-area: left;
+}
+.section-footer {
+    grid-area: footer;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "navbar navbar navbar navbar navbar navbar"
+    "headerA headerA headerA headerA headerA headerA"
+    "main main main right right right"
+    "footer footer footer footer footer footer";
+  grid-gap: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}

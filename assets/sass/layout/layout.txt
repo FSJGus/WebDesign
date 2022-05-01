@@ -1,0 +1,3 @@
+"Layout" contiene todo lo que tenga que ver con el layout o diseño de la interfaz. Esto incluye los
+elementos típicos del layout como los header, footer, sidebar, navegación, además de las grillas que le
+dan forma a este diseño

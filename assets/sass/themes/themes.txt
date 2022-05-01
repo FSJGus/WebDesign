@@ -1,0 +1,5 @@
+En interfaces grandes, es común encontrar este tipo de estilos los cuales tienen diferentes formas de
+definir un tema dependiendo de factores como el tipo de usuario que la usará o si la marca usa diferentes
+colores dependiendo del lugar geográfico.
+Esta carpeta en proyectos pequeños o específicos es probable que no sea necesario usarla, de modo que
+si ese es el caso, lo mejor que podemos hacer es dejarla vacía.

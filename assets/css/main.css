@@ -1,0 +1,413 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+.navbar {
+  display: inline-flex;
+  justify-content: space-between;
+  background: #000;
+  width: 100%; }
+
+nav > figure > a img {
+  width: 200px;
+  height: 55px;
+  vertical-align: middle; }
+
+nav > figure > ul {
+  list-style: none; }
+
+ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  list-style: none; }
+
+.navbar ul > li {
+  display: inline-block;
+  align-items: center;
+  position: relative;
+  padding: 15px; }
+
+ul {
+  display: inline-flex;
+  align-items: center;
+  width: 450px;
+  justify-content: center; }
+
+#logonav {
+  position: relative;
+  top: 12px;
+  left: 100px;
+  width: 80px; }
+
+#logoheader {
+  width: 76%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif; }
+
+.main-container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  left: 1.3%; }
+
+.aside-right-container {
+  border: 1px solid #000;
+  width: 630px;
+  height: 1130px;
+  margin: 5px;
+  margin-left: 22px; }
+
+.section-left-container {
+  border: 1px solid #000;
+  width: 630px;
+  height: 1130px;
+  margin: 5px; }
+
+.section-left-1 {
+  height: 550px;
+  border: 1px dotted grey;
+  margin: 10px; }
+
+.section-left-2-container {
+  height: 550px;
+  border: 1px dotted grey;
+  margin: 10px; }
+
+.content-right {
+  font-size: 16px;
+  text-align: justify;
+  padding: 15px;
+  line-height: 25px; }
+
+.mas-cursos {
+  background: #302e2b;
+  color: #fff;
+  margin: 5px; }
+
+.mas-cursos p {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px;
+  padding: 12px; }
+
+.icons-right i {
+  margin-top: 5px;
+  padding: 10px; }
+
+.list-right {
+  margin-left: 40px; }
+
+.list-right ul {
+  display: contents;
+  width: 100%;
+  height: auto;
+  list-style: circle;
+  font-size: 16px;
+  text-align: left;
+  line-height: 30px; }
+
+.instructor-left {
+  text-align: justify;
+  padding: 5px;
+  line-height: 25px; }
+
+.instructor-left i {
+  justify-content: space-around;
+  font-size: 12px;
+  padding: 5px; }
+
+.rosca {
+  position: relative;
+  animation: rosca 5s infinite;
+  width: 110px;
+  top: 12px;
+  right: 100px; }
+
+.closeTag {
+  animation: closetab 1s infinite;
+  animation-direction: alternate; }
+
+@keyframes closetab {
+  0% {
+    transform: translate(-25px); }
+  100% {
+    transform: translate(25px); } }
+#sass {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: 5px; }
+
+#instructor,
+#instructor-sass {
+  font-weight: bold;
+  font-size: 14px; }
+
+#title-leftA,
+#title-leftB {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: start;
+  padding: 5px; }
+
+#content-leftA,
+#content-leftB {
+  text-align: justify;
+  font-size: 16px;
+  padding: 5px;
+  line-height: 25px; }
+
+#phone {
+  width: 200px;
+  margin-top: 20px; }
+
+#webDev {
+  display: flex;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 200px;
+  margin: 18px auto; }
+
+#html-css {
+  width: 100%;
+  padding: 5px; }
+
+#colorsvg {
+  fill: #666666;
+  animation: svg 4s backwards;
+  animation-direction: normal;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; }
+
+#js {
+  fill: #ffdd55;
+  animation: js 4s backwards;
+  animation-direction: normal;
+  animation-delay: 3s;
+  animation-iteration-count: infinite; }
+
+#colorhtml {
+  fill: #f16529;
+  animation: html 4s backwards;
+  animation-direction: normal;
+  animation-delay: 4s;
+  animation-iteration-count: infinite; }
+
+#xml {
+  fill: #9693ac;
+  animation: xml 4s backwards;
+  animation-direction: normal;
+  animation-delay: 5s;
+  animation-iteration-count: infinite; }
+
+#css {
+  fill: #28aae1;
+  animation: css 4s backwards;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-delay: 6s; }
+
+@keyframes svg {
+  from {
+    fill: #fff;
+    transform: rotateX(90deg);
+    opacity: 0; } }
+@keyframes js {
+  from {
+    fill: #fff;
+    transform: rotateX(90deg);
+    opacity: 0; } }
+@keyframes html {
+  from {
+    fill: #fff;
+    transform: rotateX(90deg);
+    opacity: 0; } }
+@keyframes xml {
+  from {
+    fill: #fff;
+    transform: rotateX(90deg);
+    opacity: 0; } }
+@keyframes css {
+  from {
+    fill: #fff;
+    transform: rotateX(90deg);
+    opacity: 0; } }
+@keyframes rosca {
+  to {
+    transform: rotate(180deg); } }
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%; }
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%; }
+
+  .col-s-2 {
+    width: 16.66%; }
+
+  .col-s-3 {
+    width: 25%; }
+
+  .col-s-4 {
+    width: 33.33%; }
+
+  .col-s-5 {
+    width: 41.66%; }
+
+  .col-s-6 {
+    width: 50%; }
+
+  .col-s-7 {
+    width: 58.33%; }
+
+  .col-s-8 {
+    width: 66.66%; }
+
+  .col-s-9 {
+    width: 75%; }
+
+  .col-s-10 {
+    width: 83.33%; }
+
+  .col-s-11 {
+    width: 91.66%; }
+
+  .col-s-12 {
+    width: 100%; } }
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%; }
+
+  .col-2 {
+    width: 16.66%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33%; }
+
+  .col-5 {
+    width: 41.66%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33%; }
+
+  .col-8 {
+    width: 66.66%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33%; }
+
+  .col-11 {
+    width: 91.66%; }
+
+  .col-12 {
+    width: 100%; } }
+button {
+  background-color: #ffaf6d;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 3px;
+  width: 80px;
+  height: 28px; }
+
+input {
+  height: 28px;
+  margin-left: 10px;
+  border-radius: 5px; }
+
+input:focus {
+  background: #ffaf6d;
+  color: #924302;
+  font-weight: 700; }
+
+.section-footer {
+  display: inline-flex;
+  position: relative;
+  height: 120px;
+  background: #000; }
+
+.footer-links {
+  display: inline-flex;
+  position: relative;
+  width: 90%; }
+
+.footer-links > form {
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  color: #fff;
+  align-items: center;
+  right: 40px; }
+
+.footer-links > ul {
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  align-items: center; }
+
+.footer-links > ul > li {
+  padding: 15px; }
+
+.copyright {
+  display: inline-flex;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  left: 110px;
+  width: 100%; }
+
+.section-footer ul {
+  width: 300px; }
+
+#derechos:hover::after {
+  content: " Diseño: Gustavo Lima"; }
+
+.navbar {
+  grid-area: navbar;
+  height: 80px; }
+
+.headerA {
+  grid-area: headerA; }
+
+.aside-right {
+  grid-area: main;
+  height: 300px; }
+
+.section-left-1 {
+  grid-area: right; }
+
+.section-left-2 {
+  grid-area: left; }
+
+.section-footer {
+  grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "navbar navbar navbar navbar navbar navbar" "headerA headerA headerA headerA headerA headerA" "main main main right right right" "footer footer footer footer footer footer";
+  grid-gap: 10px; }
+
+.grid-container > div {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px; }
+
+/*# sourceMappingURL=main.css.map */

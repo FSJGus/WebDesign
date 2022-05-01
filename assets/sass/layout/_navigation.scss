@@ -1,0 +1,40 @@
+
+.navbar {
+    display: inline-flex;
+    justify-content: space-between;
+    background: #000;
+    width: 100%;
+  }
+nav > figure > a img {
+    width: 200px;
+    height: 55px;
+    vertical-align: middle;
+}
+nav > figure > ul {
+    list-style: none;
+}
+ul > li > a  {
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+.navbar ul > li {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    
+    
+}
+ul {
+    display: inline-flex;
+    align-items: center;
+    width: 450px;
+    justify-content: center;
+}
+#logonav {
+    position: relative;
+    top: 12px;
+    left: 100px;
+    width: 80px;
+}

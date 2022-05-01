@@ -1,0 +1,5 @@
+La carpeta "abstracts" contiene todos los parciales relacionados a todas las herramientas y helpers de
+Sass usados en nuestro proyecto. Aquí encontraremos las variables globales, funciones y mixin que
+deseemos guardar.
+La regla de oro de este directorio es que ninguno de los elementos incluidos dentro de este, se deben
+compilar a CSS.

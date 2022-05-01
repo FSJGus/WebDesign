@@ -1,0 +1,5 @@
+Finalmente encontraremos el directorio vendor. En esta carpeta se encuentran todos los archivos CSS de
+bibliotecas, plugins y frameworks externos como: Normalize, Bootstrap, entre otras.
+El usar esta carpeta es una buena manera de separar el código que es nuestro con el código de otras
+personas, en algunos proyectos puede que no sea necesario crear todos los directorios, ya que por
+ejemplo un proyecto no usa librerías externas no será necesario crear la carpeta vendors.

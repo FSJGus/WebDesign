@@ -1,0 +1,3 @@
+En el caso del directorio "pages", si tuviéramos distintos tipos de diseño en las páginas deberíamos agregar
+este archivo.
+En el caso de no tener distintos tipos de páginas, este puede quedar sin contenido
